@@ -1,3 +1,5 @@
+'''based on Sentdex's tutorial, optimized for high accuracy (around 94% for dogs vs cats binary classification)'''
+
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras import Model
