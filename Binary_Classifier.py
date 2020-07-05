@@ -1,4 +1,8 @@
-'''based on Sentdex's tutorial, optimized for high accuracy (around 94% for dogs vs cats binary classification)'''
+'''based on Sentdex's tutorial, optimized for high accuracy (around 94% for dogs vs cats binary classification). The idea behind this was to pick a simple model
+and play around with the hyperparameters to optimize the result. Further notes: 
+  -Try doing batch_norm in each layer
+  -Modifying Adam optimizer
+  -Running in high resolution (other than 70x70 pixels)'''
 
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
