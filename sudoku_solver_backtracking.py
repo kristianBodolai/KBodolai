@@ -1,5 +1,6 @@
 # <codecell>
-'''Sudoku solver with backtracking algorithm. Following computerphile'''
+'''Sudoku solver with backtracking algorithm. Following computerphile
+          idea: practice recursion techniques'''
 
 import numpy as np
 import time
