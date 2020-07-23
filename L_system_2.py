@@ -4,8 +4,6 @@ Created on Fri May  1 12:12:32 2020
 
 @author: krist
 """
-
-
 import numpy as np
 import cv2
 
